@@ -22,7 +22,7 @@ const ForRent = () => {
             bedroom={item.bedroom}
             bathroom={item.bathroom}
             area={item.area}
-            varient = {item.sale}
+            variant = {item.varient}
           />
         ))}
       </div>
