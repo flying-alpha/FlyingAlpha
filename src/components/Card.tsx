@@ -8,19 +8,19 @@ import card from '../../public/card.jpg'
 
 const Card = () => {
   return (
-    <CardContainer className="inter-var">
+    <CardContainer className="inter-var mt-0 pt-0 pb-0">
          <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[25rem] h-auto rounded-xl p-6 border">
 
       <CardItem
         translateZ="50"
-        className="text-xl font-bold text-neutral-600 dark:text-white"
+        className=" text-neutral-600 dark:text-white text-xl font-bold mb-5 "
       >
         Make things float in air
       </CardItem>
       <CardItem
         as="p"
         translateZ="60"
-        className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+        className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 "
       >
         We've got properties in Patna for everyone
       </CardItem>
