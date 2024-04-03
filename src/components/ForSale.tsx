@@ -3,7 +3,7 @@ import { CardTwo } from "./CardTwo";
 
 import { propertyForSale } from '../data/Property';
 
-const Section = () => {
+const ForSale = () => {
   return (
     <div className="flex flex-col pl-10 pr-10 mt-10 mb-10 justify-center">
       <div>
@@ -22,6 +22,7 @@ const Section = () => {
             bedroom={item.bedroom}
             bathroom={item.bathroom}
             area={item.area}
+            variant = {item.varient}
           />
         ))}
       </div>
@@ -30,4 +31,4 @@ const Section = () => {
   );
 };
 
-export default Section;
+export default ForSale;

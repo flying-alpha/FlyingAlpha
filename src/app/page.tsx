@@ -2,8 +2,11 @@ import React from 'react';
 import {Navbar} from '../components/Navbar'; // Import the Navbar component
 import Hero from '@/components/Hero';
 import FeaturedProject from '@/components/FeaturedProject';
-import Section from '@/components/Section';
+import Forsale from '@/components/ForSale';
 import { Footer } from '@/components/Footer';
+import ForRent from '@/components/ForRent';
+import NewsCard from '@/components/NewsCard';
+import NewsSection from '@/components/NewsSection';
 
 
 
@@ -13,7 +16,9 @@ const Page = () => {
      <Navbar/>
      <Hero/>
      <FeaturedProject/>
-     <Section/>
+     <Forsale/>
+     <ForRent/>
+     <NewsSection/>
      <Footer/>
     </div>
   );
